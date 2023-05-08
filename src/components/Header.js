@@ -29,20 +29,7 @@ export const Header = () => {
 
  },[darkMode])
 
-function setFixed (){
-  if (window.scrollY >= 10) {
-    setFix(true)
-  }else{
-    setFix(false)
-  }
-  
-}
-window.addEventListener("scroll",setFixed)
 
-
-
-
- 
   return (
     <header>
       
