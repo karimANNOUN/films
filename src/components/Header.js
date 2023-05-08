@@ -15,7 +15,6 @@ export const Header = () => {
      event.target.reset();
    return navigate(`/search/?q=${queryTerm}`);
  }
-  const [fix,setFix]=useState(false)
   const [hidden,setHidden] = useState(true);
  const [darkMode,setDarkMode]=useState( JSON.parse(localStorage.getItem("darkMode")) || false);
  useEffect(()=>{
