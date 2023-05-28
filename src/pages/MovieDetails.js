@@ -67,7 +67,7 @@ export const MovieDetails = () => {
     </p>
 
     <p className='my-4 flex justify-start'>
-      <a href={`https://www.imdb.com/title/${movie.imdb_id}`} className='mr-2 font-bold' target='_blank' rel='noreferrer'>IMDB Code click to watch:{movie.imdb_id}</a>
+      <a href={`https://www.imdb.com/title/${movie.imdb_id}`} className='mr-2 font-bold' target='_blank' rel='noreferrer'>Click to watch:<button className='text-white bg-yellow-700 hover:bg-yellow-800 focus:ring-4 focus:outline-none focus:ring-yellow-300 ml-2 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-yellow-600 dark:hover:bg-yellow-700 dark:focus:ring-yellow-800'>Watch</button></a>
     </p>
 
        
